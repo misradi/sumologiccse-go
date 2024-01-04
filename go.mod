@@ -1,4 +1,4 @@
-module github.com/saurabh-agarwals/sumologiccse-go
+module github.com/misradi/sumologiccse-go
 
 go 1.18
 
