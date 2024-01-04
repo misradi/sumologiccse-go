@@ -13,7 +13,7 @@ import (
 	"context"
 	"testing"
 
-	openapiclient "github.com/saurabh-agarwals/sumologiccse-go"
+	openapiclient "github.com/misradi/sumologiccse-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
