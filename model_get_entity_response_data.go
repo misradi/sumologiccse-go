@@ -27,7 +27,7 @@ type GetEntityResponseData struct {
 	FirstSeen *time.Time `json:"firstSeen,omitempty"`
 	IsSuppressed bool `json:"isSuppressed"`
 	Name string `json:"name"`
-	Inventory []GetEntitiesResponseDataObjectsInnerInventoryInner `json:"inventory"`
+	Inventory []GetEntitiesResponseDataObjectsInnerInventoryInner `json:"inventory,omitempty"`
 	Tags []string `json:"tags"`
 	Criticality *string `json:"criticality,omitempty"`
 	Reputation *string `json:"reputation,omitempty"`
